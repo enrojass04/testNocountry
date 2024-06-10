@@ -8,7 +8,7 @@ import cors from "cors";
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://c18-24-ft-node-react.vercel.app/",
   optionsSuccessStatus: 200,
 };
 
