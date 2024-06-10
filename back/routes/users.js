@@ -8,7 +8,7 @@ import {
 
 const router = express.Router();
 
-router.get("/", checkAuthorization, getAllUsers);
+router.get("/", getAllUsers);
 router.get("/page", checkAuthorization, getAllUsersPaginated);
 router.get("/:id", checkAuthorization, retrieveUserById);
 
